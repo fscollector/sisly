@@ -28,5 +28,5 @@ var options = { "autoscroll": "1", "parser":"default" }
 sisly.scan('feed.xml', [options], [event]);
 
 [event] = function () {
-  aria2.queue(url, filename, [on-complete])
+  aria2.queue(url, filename, [on-complete-event])
 }
