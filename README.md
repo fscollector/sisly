@@ -19,3 +19,14 @@ Components:
 Bonus:
 - Auto Check For Updates (Polling Sites / Blogs)
 - Web UI
+
+
+# Example Usage
+var sisly = require('sisly')
+var options = { "autoscroll": "1", "parser":"default" }
+//var options = { "autoscroll": "1", "parser":"custom.yml" }
+sisly.scan('feed.xml', [options], [event]);
+
+[event] = function () {
+  aria2.queue(url, filename, [on-complete])
+}
