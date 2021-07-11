@@ -1,5 +1,5 @@
 # Sisly
-A framework for scraping images/video. Works with aria2
+A framework for scraping images/video. Works with aria2. Ideally this project is just to piece together some other projects into something functional.
 
 
 
