@@ -30,3 +30,10 @@ sisly.scan('feed.xml', [options], [event]);
 [event] = function () {
   aria2.queue(url, filename, [on-complete-event])
 }
+
+
+# Containers
+- Sisly (REST API w/ CLI Frontend to compliment and abstract youtube-dl)
+- Nodes of Selenium (1 per site/blog, max ram limit to force GC?)
+- Aria2 (Downloader)
+- Single File (HTML5/Websocket) Aria2 management in a Caddy server
