@@ -1,0 +1,8 @@
+# NPM List
+zerorpc-node or jayson -- RPC/CLI to server 
+yargs -- CLI args / processing 
+chalk / boxen -- Stand out with colors
+
+
+# Samples To Work Off Of
+https://github.com/mzernetsch/jrgen
